@@ -6,6 +6,8 @@
 body {
   font-size: 15px;
   font-family: "Noto Sans JP", sans-serif;
+  color: #544c38;
+  line-height: 1.6;
 }
 
 .head {
@@ -136,4 +138,49 @@ body {
   background-size: 5px;
   background-repeat: no-repeat;
   background-position: right 12px center;
+}
+
+.greeting {
+  padding: 20px 0;
+  background-color: #fdfaf3;
+  margin-bottom: -55px;
+}
+
+.greeting__title {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.greeting__title img {
+  max-width: 211px;
+  width: 80%;
+}
+
+.greeting__ownerImage {
+  width: 100%;
+  height: auto;
+}
+
+.greeting__text {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 20px;
+  position: relative;
+  top: -85px;
+}
+
+.news {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.news__title {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.news__title img {
+  max-width: 264px;
+  width: 80%;
 }
