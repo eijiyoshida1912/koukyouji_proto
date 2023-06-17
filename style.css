@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.head {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head__title {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.head__title > img {
+  width: 100px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.head__list {
+  list-style: none;
+  display: flex;
+  height: 60px;
+}
+
+.head__list > li {
+  width: 60px;
+}
+
+.head__list > li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  height: 60px;
+}
+
+.head__list > li img {
+  height: 24px;
+  width: auto;
+  margin-bottom: 2px;
+}
+
+.head__list > li span {
+  font-size: 10px;
+}
+
+.head__access {
+  border-left: 1px solid #4d4532;
+  background-color: #ffffff;
+}
+
+.head__access > a {
+  color: #4d4532;
+}
+
+.head__tel {
+  background-color: #dfe7fc;
+}
+
+.head__tel > a {
+  color: #364aa1;
+}
+
+.head__menu {
+  background-color: #73674b;
+}
+
+.head__menu > a {
+  color: #ffffff;
+}
+
+.topImage > img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.nav {
+  background-color: #fdfaf3;
+  position: relative;
+}
+
+.nav::before,
+.nav::after {
+  content: "";
+  width: 100%;
+  height: 8px;
+  background-image: url("images/wave_top.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  z-index: 10000;
+}
+.nav::before {
+  top: -8px;
+  left: 0;
+}
+
+.nav ul {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.nav ul > li {
+  width: calc(50% - 10px);
+  margin-bottom: 12px;
+}
+
+.nav ul > li > a {
+  display: block;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #dfe7fc;
+  border-radius: 4px;
+  color: #4760ac;
+  background-image: url("images/arrow.svg");
+  background-size: 5px;
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 506 87">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        filter: url(#outer-glow-1);
+        font-family: TsukuARdGothicStd-B-90ms-RKSJ-H, 'FOT-TsukuARdGothic Std';
+        font-size: 48px;
+        letter-spacing: .1em;
+      }
+    </style>
+    <filter id="outer-glow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <text class="cls-1" transform="translate(15.4 58)"><tspan x="0" y="0">永代供養墓について</tspan></text>
+  </g>
+</svg>
